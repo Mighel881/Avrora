@@ -56,6 +56,10 @@
 			<string>PSGroupCell</string>
 			<key>label</key>
 			<string>Clock</string>
+			<key>footerText</key>
+			<string>doesn't update in realtime</string>
+			<key>isStaticText</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -114,6 +118,10 @@
 			<string>PSGroupCell</string>
 			<key>label</key>
 			<string>Now Playing</string>
+			<key>footerText</key>
+			<string>doesn't update in realtime</string>
+			<key>isStaticText</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -224,13 +232,13 @@
 			<key>cellClass</key>
 			<string>HBLinkTableCell</string>
 			<key>label</key>
-			<string>Lune</string>
+			<string>Nita</string>
 			<key>subtitle</key>
-			<string>Let A Moon Icon Appear While In DND</string>
+			<string>Replace your carrier with a weather emoji</string>
 			<key>icon</key>
-			<string>Lune.png</string>
+			<string>Nita.png</string>
 			<key>url</key>
-			<string>https://repo.litten.love/depictions/lne/</string>
+			<string>https://repo.litten.love/depictions/nta/</string>
 		</dict>
 		<dict>
 			<key>cellClass</key>
@@ -248,13 +256,13 @@
 			<key>cellClass</key>
 			<string>HBLinkTableCell</string>
 			<key>label</key>
-			<string>Rose</string>
+			<string>Dress</string>
 			<key>subtitle</key>
-			<string>System Wide Haptics, Great uh-huh</string>
+			<string>Dress up your lockscreen</string>
 			<key>icon</key>
-			<string>Rose.png</string>
+			<string>Dress.png</string>
 			<key>url</key>
-			<string>https://repo.litten.love/depictions/rse/</string>
+			<string>https://repo.litten.love/depictions/drs/</string>
 		</dict>
 
 		<dict>
@@ -282,7 +290,7 @@ Artworks By taki</string>
 			<key>label</key>
 			<string>Source Code</string>
 			<key>subtitle</key>
-			<string>GitHub 📅</string>
+			<string>GitHub 🌌</string>
 			<key>url</key>
 			<string>https://github.com/Litteeen/Avrora</string>
 		</dict>
