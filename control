@@ -1,0 +1,9 @@
+Package: love.litten.avrora
+Name: Avrora
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0), com.spark.libsparkapplist, com.peterdev.libpddokdo
+Version: 1.0
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: alexa
+Author: alexa
+Section: Tweaks
