@@ -212,40 +212,18 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Developer Of Calendate</string>
-			<key>footerText</key>
-			<string>Thanks kritanta For The Pretty Twitter Cells</string>
-			<key>isStaticText</key>
-			<true/>
+			<string>Contributions</string>
 		</dict>
 		<dict>
-            <key>action</key>
-            <string>twitterLitten</string>
-            <key>cell</key>
-            <string>PSButtonCell</string>
-            <key>label</key>
-            <string>@ArtikusHG</string>
-            <key>cellClass</key>
-            <string>HBTwitterCell</string>
-            <key>label</key>
-            <string>ArtikusHG</string>
-            <key>user</key>
-            <string>ArtikusHG</string>
-        </dict>
-		<dict>
-            <key>action</key>
-            <string>twitterLitten</string>
-            <key>cell</key>
-            <string>PSButtonCell</string>
-            <key>label</key>
-            <string>@_kritanta</string>
-            <key>cellClass</key>
-            <string>HBTwitterCell</string>
-            <key>label</key>
-            <string>kritanta</string>
-            <key>user</key>
-            <string>_kritanta</string>
-        </dict>
+ 			<key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Contributors</string>
+ 			<key>detail</key>
+ 			<string>AVAContributorsSubPrefsListController</string>
+ 			<key>AVASub</key>
+ 			<string>contributorsSub</string>
+ 		</dict>
 
 		<dict>
 			<key>cell</key>
