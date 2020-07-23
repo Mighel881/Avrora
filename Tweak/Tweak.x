@@ -36,6 +36,9 @@ BOOL enabled;
             return %orig;
         }
     } else {
+        if (hideLabels) {
+            return @"";
+        } 
         return %orig;
     }
     
@@ -92,6 +95,7 @@ BOOL enabled;
 	preferences = [[HBPreferences alloc] initWithIdentifier:@"love.litten.avrorapreferences"];
 
     [preferences registerBool:&enabled default:nil forKey:@"Enabled"];
+    [preferences registerBool:&hideLabels default:NO forKey:@"hideLabels"];
 
     // Date
     [preferences registerObject:&dateFormatValue default:@"MMMM" forKey:@"dateFormat"];

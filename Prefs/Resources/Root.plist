@@ -168,6 +168,20 @@
 		</dict>
 		<dict>
 			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.avrorapreferences</string>
+			<key>key</key>
+			<string>hideLabels</string>
+			<key>label</key>
+			<string>Hide all but Avrora labels</string>
+			<key>PostNotification</key>
+			<string>love.litten.avrorapreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
 			<string>PSButtonCell</string>
 			<key>label</key>
 			<string>Respring</string>

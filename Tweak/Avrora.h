@@ -2,11 +2,14 @@
 #import <Cephei/HBPreferences.h>
 #import "SparkAppList.h"
 #import "libpddokdo.h"
-#import <MediaRemote/MediaRemote.h>
+#import "MediaRemote.h"
 
 HBPreferences* preferences;
 
 extern BOOL enabled;
+
+//other
+BOOL hideLabels = NO;
 
 // Date
 NSString* dateFormatValue = @"MMMM";
