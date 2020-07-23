@@ -1,6 +1,6 @@
 Package: love.litten.avrora
 Name: Avrora 🌌
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common(>= 1.14), firmware (>= 13.0), com.spark.libsparkapplist, com.peterdev.libpddokdo
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common(>= 1.14), firmware (>= 12.0), com.spark.libsparkapplist, com.peterdev.libpddokdo
 Architecture: iphoneos-arm
 Description: shiny icons need shiny names
 Maintainer: Litten <hiya@litten.love>
@@ -9,5 +9,5 @@ Section: Tweaks
 Depiction: https://repo.litten.love/depictions/ava/index.html
 SileoDepiction: https://repo.litten.love/depictions/ava/ava.json
 Icon: https://repo.litten.love/depictions/ava/assets/icon.png
-Version: 1.0
-Installed-Size: 816
+Version: 1.1
+Installed-Size: 824

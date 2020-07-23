@@ -36,9 +36,8 @@ BOOL enabled;
             return %orig;
         }
     } else {
-        if (hideLabels) {
+        if (hideOtherLabelsSwitch)
             return @"";
-        } 
         return %orig;
     }
     
@@ -95,7 +94,6 @@ BOOL enabled;
 	preferences = [[HBPreferences alloc] initWithIdentifier:@"love.litten.avrorapreferences"];
 
     [preferences registerBool:&enabled default:nil forKey:@"Enabled"];
-    [preferences registerBool:&hideLabels default:NO forKey:@"hideLabels"];
 
     // Date
     [preferences registerObject:&dateFormatValue default:@"MMMM" forKey:@"dateFormat"];
@@ -107,6 +105,9 @@ BOOL enabled;
     // Now Playing
     [preferences registerBool:&songTitleSwitch default:NO forKey:@"songTitle"];
     [preferences registerBool:&artistNameSwitch default:NO forKey:@"artistName"];
+
+    // Miscellaneous
+    [preferences registerBool:&hideOtherLabelsSwitch default:NO forKey:@"hideOtherLabels"];
 
 	if (enabled) {
 		%init(Avrora);

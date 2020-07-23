@@ -2,14 +2,11 @@
 #import <Cephei/HBPreferences.h>
 #import "SparkAppList.h"
 #import "libpddokdo.h"
-#import "MediaRemote.h"
+#import "MediaRemote/MediaRemote.h"
 
 HBPreferences* preferences;
 
 extern BOOL enabled;
-
-//other
-BOOL hideLabels = NO;
 
 // Date
 NSString* dateFormatValue = @"MMMM";
@@ -27,6 +24,9 @@ BOOL songTitleSwitch = NO;
 BOOL artistNameSwitch = NO;
 NSString* songTitle = nil;
 NSString* artistName = nil;
+
+// Miscellaneous
+BOOL hideOtherLabelsSwitch = NO;
 
 @interface SBApplication : NSObject
 - (NSString *)bundleIdentifier;
