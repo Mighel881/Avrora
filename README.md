@@ -1,5 +1,5 @@
 # Avrora
-shiny icons need shiny names
+Shiny icons need shiny names
 
 ## Installation
 1. Add this repository to your Package Manager: https://repo.litten.love
